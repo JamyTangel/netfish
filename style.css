@@ -1,0 +1,71 @@
+body, html {
+    background-color: black; 
+    color: white;
+    margin: 0; 
+    /* background-image: url("images/achtergrond.png"); */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.achtergrond {
+    margin: 0;
+    background-image: url("images/achtergrond.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.header {
+    width: 1500px;
+    height: 100px;
+}
+
+a {
+    color: white;
+} 
+
+  li {
+    float: right;
+    list-style-type: none;
+    margin: 5px; 
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+  }
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulier {
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 600px;
+    border: solid 1px white;
+    text-align: center;
+    background-color: black;
+}
+
+.overzicht{
+    color: white;
+    margin-top: 50px;
+}
+
+.container{
+    background-image: url("images/netflixbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
